@@ -8,11 +8,19 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+           /*  background-color: black;
             background-image: url(img-fundo/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover; /* O "Cover" cobre a tela inteira só que ele corta a imagem, melhor para não ter quebra e mostrar o fundo preto*/
+            background-size: cover;
+            background-attachment: fixed; */
+             /* O "Cover" cobre a tela inteira só que ele corta a imagem, melhor para não ter quebra e mostrar o fundo preto*/
+            /* Existe a junção de todos os "Back" 
+            que se chama 'background-shorthand' 
+            exatamente nessa ordem:
+            color > image > position > repeat >[size] > attachment */
+            background: black url(img-fundo/wallpaper002.jpg) center top no-repeat fixed;
+            background-size: cover; /* "cover ainda não funciona, triste." */
         }
 
         main {
@@ -29,6 +37,14 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ad veniam labore molestias culpa corporis aperiam provident. Veniam officiis commodi ipsam saepe nisi praesentium ab aperiam tempora sit repellendus. Delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quo obcaecati corrupti? Velit sunt deleniti quae perferendis mollitia nam iure? Velit, iusto itaque. Exercitationem quo possimus libero laboriosam. Exercitationem!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ratione tempora placeat quisquam sit possimus, rerum error sunt accusamus alias cum fugiat ipsam aperiam eum iste expedita fuga minus ipsa.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ad veniam labore molestias culpa corporis aperiam provident. Veniam officiis commodi ipsam saepe nisi praesentium ab aperiam tempora sit repellendus. Delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quo obcaecati corrupti? Velit sunt deleniti quae perferendis mollitia nam iure? Velit, iusto itaque. Exercitationem quo possimus libero laboriosam. Exercitationem!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ratione tempora placeat quisquam sit possimus, rerum error sunt accusamus alias cum fugiat ipsam aperiam eum iste expedita fuga minus ipsa.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ad veniam labore molestias culpa corporis aperiam provident. Veniam officiis commodi ipsam saepe nisi praesentium ab aperiam tempora sit repellendus. Delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quo obcaecati corrupti? Velit sunt deleniti quae perferendis mollitia nam iure? Velit, iusto itaque. Exercitationem quo possimus libero laboriosam. Exercitationem!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ratione tempora placeat quisquam sit possimus, rerum error sunt accusamus alias cum fugiat ipsam aperiam eum iste expedita fuga minus ipsa.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ad veniam labore molestias culpa corporis aperiam provident. Veniam officiis commodi ipsam saepe nisi praesentium ab aperiam tempora sit repellendus. Delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quo obcaecati corrupti? Velit sunt deleniti quae perferendis mollitia nam iure? Velit, iusto itaque. Exercitationem quo possimus libero laboriosam. Exercitationem!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ratione tempora placeat quisquam sit possimus, rerum error sunt accusamus alias cum fugiat ipsam aperiam eum iste expedita fuga minus ipsa.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ad veniam labore molestias culpa corporis aperiam provident. Veniam officiis commodi ipsam saepe nisi praesentium ab aperiam tempora sit repellendus. Delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quo obcaecati corrupti? Velit sunt deleniti quae perferendis mollitia nam iure? Velit, iusto itaque. Exercitationem quo possimus libero laboriosam. Exercitationem!
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ratione tempora placeat quisquam sit possimus, rerum error sunt accusamus alias cum fugiat ipsam aperiam eum iste expedita fuga minus ipsa.
         </p>
     </main>
