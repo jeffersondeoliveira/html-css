@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Links externos</h1>
+    <p>Link para o Youtube <a href="https://www.youtube.com/" target="_blank" rel="external">clique aqui!</a></p>
+    <!-- O primeiro link está com a função de quando clicar no link a pessoa sera direcionada para outra pasta sem se impor por cima da pasta atual. -->
+    <p>Link para o Tradutor <a href="https://translate.google.com/">clique aqui!</a></p>
+    <!-- Este link não ao ser clicado a próxima página sera aberta na mesma página. -->
+    
+    <h1>Links internos</h1>
+    <p>Segunda pasta. <a href="pag02.html" rel="next" target="_self">Ir para a página 002.</a>
+    </p>
+    <p><a href="Link interno/pag03.html" target="_blank" rel="next">Notícias</a></p>
+    <h2>Dowloand do Livro Alice e o País das Maravilhas</h2>
+    <ul>
+        <li><a href="Livro/alicep.pdf" type="application/pdf">Livro em PDF</a></li>
+        <!-- Não vai funcionar porque é só um exemplo. -->
+        <li><a href="Livro/alicep.pdf" type="application/zip">Livro em ZIP</a></li><!-- Não vai funcionar porque não em está como ZIP. -->
+</body>
+</html>

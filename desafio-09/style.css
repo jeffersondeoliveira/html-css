@@ -1,0 +1,25 @@
+* {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 41%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.link a {
+    text-decoration: none;
+    margin-left: 41%;
+    font-size: 30px;
+}
+
+.botao {
+    margin-left: 49%;
+}

@@ -1,0 +1,32 @@
+* {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 33%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 400px;
+    height: 200px;
+    margin: 0 auto; 
+    justify-content: space-around;
+}
+
+.itens {
+    flex: 1 1 200px;
+    display: flex;
+}

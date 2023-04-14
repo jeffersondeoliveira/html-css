@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- <video src="midia/Video.Hackmp4.mp4" width="500px" controls></video> -->
+    <!-- Têm esse modelo que não é o mais indicado, porque pode dar problema em vários outros servidores locais. -->
+
+    <video width="500" poster="img/wallpaper.jpg" loop
+    controls>
+        <source src="midia/Video.Hackmp4.mp4" type="video/mp4">
+        <source src="midia/video.hack.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+    <!-- O modelo certo é você fazer o download de vários arquivos diferentes para cada caso. Só que com esse modelo o consumo de hospedagem vai sair muito caro para o seu cliente. -->
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P7Cz2IPe5J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Esse é o modelo melhor para ser utilizado, porque não consome tanto hospedagem e ele também é tirado do Youtube -->
+
+</body>
+</html>

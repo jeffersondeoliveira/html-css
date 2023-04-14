@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: azure;
+        }
+        .botao {
+            margin: 10px;
+            font-size: 15px;
+            background-color: brown;
+            border-radius: 5px;
+        }
+
+        .botao:hover {
+            background-color: red;
+        }
+        /* A parte de cima é fora a parte */
+        div {
+            display: inline-block;
+           background-color: darkgrey;
+           text-align: center; 
+           border: 3px solid black;
+           height: 200px;
+           width: 200px;
+        }
+        /* Pseudo-class é com esse símbolo (:) e colocar uma função para acontecer. */
+        div:hover {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <button class="botao"><a href="pag02.html">Próxima página</a></button>
+</body>
+</html>
